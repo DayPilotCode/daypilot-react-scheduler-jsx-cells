@@ -53,9 +53,7 @@ const Scheduler = () => {
         barBackColor: "#ea9999",
       },
     ]);
-    setEvents([]);
   }, []);
-
 
   const onTimeRangeSelected = async (args) => {
     const modal = await DayPilot.Modal.prompt("Create a new event:", "Event 1");
